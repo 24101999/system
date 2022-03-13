@@ -1,0 +1,77 @@
+.ded-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 5rem;
+}
+
+form {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(istockphoto-1341761658-1024x1024.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+form input {
+  color: #000;
+}
+
+form button {
+  background-color: dimgray;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+form p {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.valor {
+  padding: 0.5rem;
+}
+
+.input.active {
+  border: red 2px solid;
+}
+
+.txt-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5rem;
+}
+/*# sourceMappingURL=style.css.map */
