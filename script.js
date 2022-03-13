@@ -3,10 +3,8 @@ let bt = document.querySelector(".button");
 let valor = document.querySelector(".valor");
 let un = document.getElementById("inp");
 let two = document.getElementById('two')
-two.value.toFixed(1)
 
 const dados = [{ class: 'Peso baixo', }, { class: 'Peso normal ou adequado' }, { class: 'sobrepeso' }, { class: 'obesidade grau 1' }, { class: 'obesidade grau 2' }, { class: 'obesidade grau 3 ou morbida' }]
-two = parseFloat
 input.forEach((a, b, c) => {
     bt.addEventListener('click', () => {
         let quad = c[1].value * c[1].value
