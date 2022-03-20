@@ -75,4 +75,18 @@ form p {
   display: flex;
   gap: 5rem;
 }
+
+.txt-items-d {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4rem;
+}
+
+.txt-items-dd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4.7rem;
+}
 /*# sourceMappingURL=style.css.map */
