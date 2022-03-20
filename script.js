@@ -26,7 +26,7 @@ input.forEach((a, b, c) => {
             valor.innerHTML = imc.toFixed(1) + ' ' + dados[1].class
         } else if (imc < 18.5) {
             valor.innerHTML = imc.toFixed(1) + ' ' + dados[0].class
-        } else if (imc >= 25.0 & imc < 29.9) {
+        } else if (imc >= 25 & imc < 29.9) {
             valor.innerHTML = imc.toFixed(1) + ' ' + dados[2].class
         } else if (imc >= 30.0 & imc < 34.9) {
             valor.innerHTML = imc.toFixed(1) + ' ' + dados[3].class
